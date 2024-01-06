@@ -1,8 +1,7 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import pic1 from '../assets/Image ( 592_490 ) (1).png';
-import pic2 from '../assets/Image ( 592_490 ).png';
-
+import pic1 from "../assets/Image1.png";
+import pic2 from "../assets/Image.png";
 
 function Feature() {
   return (
@@ -26,9 +25,12 @@ function Feature() {
       </div>
 
       <div className=" md:flex   m-auto justify-around gap-20 mt-12  ">
-            <div className="m-auto  w-[500px] h-[490px]" ><img className=" " src={pic1} alt=""/></div>
-            <div className="m-auto w-[500px] h-[490px] " ><img className=" " src={pic2} alt=""/></div>
-
+        <div className="m-auto  w-[500px] h-[490px]">
+          <img className=" " src={pic1} alt="" />
+        </div>
+        <div className="m-auto w-[500px] h-[490px] ">
+          <img className=" " src={pic2} alt="" />
+        </div>
       </div>
     </div>
   );

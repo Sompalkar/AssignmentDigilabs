@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
-import worldsvg from "../assets/Big icons.svg";
+import worldsvg from "../assets/Bigicons.svg";
 import locksvg from "../assets/locksvg.svg";
 import KeySvg from "../assets/keysvg.svg";
 
